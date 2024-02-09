@@ -32,14 +32,14 @@ export const Screen5 = () => {
     <View style={styles.container}>
       <TextInput
         style={styles.input}
-        placeholder="Ingrese el número 1"
+        placeholder="Ingrese un número"
         keyboardType="numeric"
         onChangeText={setNumber1}
         value={number1}
       />
       <TextInput
         style={styles.input}
-        placeholder="Ingrese el número 2"
+        placeholder="Ingrese un número"
         keyboardType="numeric"
         onChangeText={setNumber2}
         value={number2}
